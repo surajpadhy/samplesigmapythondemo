@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "316a5c84-5d33-4fab-9bc3-69f28feadd76": {
+        "id": "316a5c84-5d33-4fab-9bc3-69f28feadd76",
+        "parent": null,
+        "name": "SampleSigmaPythonDemo.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SampleSigmaPythonDemo.py",
+        "cursor": {
+          "lineNumber": 7,
+          "column": 21
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "SampleSigmaPythonDemo"
+        },
+        "triggers": [],
+        "lastUpdated": 1620738709567
+      }
+    },
+    "openFiles": [
+      "316a5c84-5d33-4fab-9bc3-69f28feadd76"
+    ],
+    "currentFileId": "316a5c84-5d33-4fab-9bc3-69f28feadd76",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.8.0",
+    "projectName": "SampleSigmaPythonDemo",
+    "projectDescription": "Sigma-POC",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1620739084754
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "samplesigmapythondemo",
+      "url": "https://github.com/surajpadhy/samplesigmapythondemo"
+    }
+  }
+}
