@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "SampleSigmaPythonDemo.py",
         "cursor": {
-          "lineNumber": 14,
-          "column": 32
+          "lineNumber": 26,
+          "column": 23
         },
         "config": {
           "runtime": "python3.8",
@@ -154,7 +154,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1620740169514
+    "lastSave": 1620740957931
   },
   "VCS_STATE": {
     "provider": "GitHub",

@@ -19,9 +19,11 @@ def add_user(event, context):
                 }
             }
         )
+        print(recepie)
     except BaseException as e:
         print(e)
         raise(e)
+        print("sdlfjkg")
     return {"message":"Retrieved Recepie", "recepie":recepie}
     
 

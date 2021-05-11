@@ -300,7 +300,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigGetRecepieDeployment1620740177301": {
+    "apigGetRecepieDeployment1620740964829": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -313,7 +313,7 @@
         "apigGetRecepiegetRecepieGET"
       ]
     },
-    "apigHelloDeployment1620740177301": {
+    "apigHelloDeployment1620740964829": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
