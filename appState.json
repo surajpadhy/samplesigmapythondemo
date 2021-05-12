@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "SampleSigmaPythonDemo.py",
         "cursor": {
-          "lineNumber": 26,
-          "column": 23
+          "lineNumber": 2,
+          "column": 48
         },
         "config": {
           "runtime": "python3.8",
@@ -24,21 +24,17 @@
         },
         "triggers": [
           {
-            "resourceName": "apigGetRecepiegetRecepieget",
-            "config": {}
-          },
-          {
-            "resourceName": "apigHellohelloget",
+            "resourceName": "apigAPIHellohelloget",
             "config": {}
           }
         ],
-        "lastUpdated": 1620738709567,
+        "lastUpdated": 1620799453873,
         "testCases": {
           "e0c5f138-f08b-45ab-bfa6-9bb1c00864a7": {
             "id": "e0c5f138-f08b-45ab-bfa6-9bb1c00864a7",
             "name": "Test event",
             "functionId": "316a5c84-5d33-4fab-9bc3-69f28feadd76",
-            "event": "{\r\n    \"body\": \"eyJ0ZXN0IjoiYm9keSJ9\",\r\n    \"resource\": \"/{proxy+}\",\r\n    \"path\": \"/path/to/resource\",\r\n    \"httpMethod\": \"POST\",\r\n    \"isBase64Encoded\": true,\r\n    \"queryStringParameters\": {\r\n        \"foo\": \"bar\"\r\n    },\r\n    \"pathParameters\": {\r\n        \"proxy\": \"/path/to/resource\"\r\n    },\r\n    \"stageVariables\": {\r\n        \"baz\": \"qux\"\r\n    },\r\n    \"headers\": {\r\n        \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\",\r\n        \"Accept-Encoding\": \"gzip, deflate, sdch\",\r\n        \"Accept-Language\": \"en-US,en;q=0.8\",\r\n        \"Cache-Control\": \"max-age=0\",\r\n        \"CloudFront-Forwarded-Proto\": \"https\",\r\n        \"CloudFront-Is-Desktop-Viewer\": \"true\",\r\n        \"CloudFront-Is-Mobile-Viewer\": \"false\",\r\n        \"CloudFront-Is-SmartTV-Viewer\": \"false\",\r\n        \"CloudFront-Is-Tablet-Viewer\": \"false\",\r\n        \"CloudFront-Viewer-Country\": \"US\",\r\n        \"Host\": \"1234567890.execute-api.us-east-1.amazonaws.com\",\r\n        \"Upgrade-Insecure-Requests\": \"1\",\r\n        \"User-Agent\": \"Custom User Agent String\",\r\n        \"Via\": \"1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)\",\r\n        \"X-Amz-Cf-Id\": \"cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==\",\r\n        \"X-Forwarded-For\": \"127.0.0.1, 127.0.0.2\",\r\n        \"X-Forwarded-Port\": \"443\",\r\n        \"X-Forwarded-Proto\": \"https\"\r\n    },\r\n    \"requestContext\": {\r\n        \"accountId\": \"123456789012\",\r\n        \"resourceId\": \"123456\",\r\n        \"stage\": \"prod\",\r\n        \"requestId\": \"c6af9ac6-7b61-11e6-9a41-93e8deadbeef\",\r\n        \"requestTime\": \"09/Apr/2015:12:34:56 +0000\",\r\n        \"requestTimeEpoch\": 1428582896000,\r\n        \"identity\": {\r\n            \"cognitoIdentityPoolId\": null,\r\n            \"accountId\": null,\r\n            \"cognitoIdentityId\": null,\r\n            \"caller\": null,\r\n            \"accessKey\": null,\r\n            \"sourceIp\": \"127.0.0.1\",\r\n            \"cognitoAuthenticationType\": null,\r\n            \"cognitoAuthenticationProvider\": null,\r\n            \"userArn\": null,\r\n            \"userAgent\": \"Custom User Agent String\",\r\n            \"user\": null\r\n        },\r\n        \"path\": \"/prod/path/to/resource\",\r\n        \"resourcePath\": \"/{proxy+}\",\r\n        \"httpMethod\": \"POST\",\r\n        \"apiId\": \"1234567890\",\r\n        \"protocol\": \"HTTP/1.1\"\r\n    }\r\n}",
+            "event": "{\r\n    \"body\": \"eyJ0ZXN0IjoiYm9keSJ9\",\r\n    \"resource\": \"/{proxy+}\",\r\n    \"path\": \"/path/to/resource\",\r\n    \"httpMethod\": \"POST\",\r\n    \"isBase64Encoded\": true,\r\n    \"queryStringParameters\": {\r\n        \"recepie_id\": \"2\",\r\n        \"recepie_name\": \"Suraj\",\r\n        \"desc\": \"w45637636\"\r\n    },\r\n    \"pathParameters\": {\r\n        \"proxy\": \"/path/to/resource\"\r\n    },\r\n    \"stageVariables\": {\r\n        \"baz\": \"qux\"\r\n    },\r\n    \"headers\": {\r\n        \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\",\r\n        \"Accept-Encoding\": \"gzip, deflate, sdch\",\r\n        \"Accept-Language\": \"en-US,en;q=0.8\",\r\n        \"Cache-Control\": \"max-age=0\",\r\n        \"CloudFront-Forwarded-Proto\": \"https\",\r\n        \"CloudFront-Is-Desktop-Viewer\": \"true\",\r\n        \"CloudFront-Is-Mobile-Viewer\": \"false\",\r\n        \"CloudFront-Is-SmartTV-Viewer\": \"false\",\r\n        \"CloudFront-Is-Tablet-Viewer\": \"false\",\r\n        \"CloudFront-Viewer-Country\": \"US\",\r\n        \"Host\": \"1234567890.execute-api.us-east-1.amazonaws.com\",\r\n        \"Upgrade-Insecure-Requests\": \"1\",\r\n        \"User-Agent\": \"Custom User Agent String\",\r\n        \"Via\": \"1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)\",\r\n        \"X-Amz-Cf-Id\": \"cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==\",\r\n        \"X-Forwarded-For\": \"127.0.0.1, 127.0.0.2\",\r\n        \"X-Forwarded-Port\": \"443\",\r\n        \"X-Forwarded-Proto\": \"https\"\r\n    },\r\n    \"requestContext\": {\r\n        \"accountId\": \"123456789012\",\r\n        \"resourceId\": \"123456\",\r\n        \"stage\": \"prod\",\r\n        \"requestId\": \"c6af9ac6-7b61-11e6-9a41-93e8deadbeef\",\r\n        \"requestTime\": \"09/Apr/2015:12:34:56 +0000\",\r\n        \"requestTimeEpoch\": 1428582896000,\r\n        \"identity\": {\r\n            \"cognitoIdentityPoolId\": null,\r\n            \"accountId\": null,\r\n            \"cognitoIdentityId\": null,\r\n            \"caller\": null,\r\n            \"accessKey\": null,\r\n            \"sourceIp\": \"127.0.0.1\",\r\n            \"cognitoAuthenticationType\": null,\r\n            \"cognitoAuthenticationProvider\": null,\r\n            \"userArn\": null,\r\n            \"userAgent\": \"Custom User Agent String\",\r\n            \"user\": null\r\n        },\r\n        \"path\": \"/prod/path/to/resource\",\r\n        \"resourcePath\": \"/{proxy+}\",\r\n        \"httpMethod\": \"POST\",\r\n        \"apiId\": \"1234567890\",\r\n        \"protocol\": \"HTTP/1.1\"\r\n    }\r\n}",
             "eventTemplate": "apigateway-aws-proxy"
           }
         }
@@ -51,13 +47,69 @@
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "requirements.txt"
+        "filePath": "requirements.txt",
+        "lastUpdated": 1620799226692
+      },
+      "f255f4bc-824a-41f2-b68c-7e62c7299800": {
+        "id": "f255f4bc-824a-41f2-b68c-7e62c7299800",
+        "parent": null,
+        "name": "addRecepie.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "addRecepie.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 13
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "add_recepie",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "addRecepie"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigPutRecepieaddRecepiepost",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1620800473224,
+        "testCases": {
+          "7906eb54-2c21-4bc9-9a31-4cd00af6b911": {
+            "id": "7906eb54-2c21-4bc9-9a31-4cd00af6b911",
+            "name": "Test event",
+            "functionId": "f255f4bc-824a-41f2-b68c-7e62c7299800",
+            "event": "{\r\n    \"recepie_id\": \"2\",\r\n    \"recepie_name\": \"Suraj\",\r\n    \"desc\": \"sghsdfh\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "00a58174-ac85-437f-b808-fdbcb6ed7284": {
+        "id": "00a58174-ac85-437f-b808-fdbcb6ed7284",
+        "parent": null,
+        "name": "getRecepie.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "getRecepie.py",
+        "lastUpdated": 1620800113734,
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        }
       }
     },
     "openFiles": [
-      "316a5c84-5d33-4fab-9bc3-69f28feadd76"
+      "316a5c84-5d33-4fab-9bc3-69f28feadd76",
+      "f255f4bc-824a-41f2-b68c-7e62c7299800",
+      "00a58174-ac85-437f-b808-fdbcb6ed7284"
     ],
-    "currentFileId": "316a5c84-5d33-4fab-9bc3-69f28feadd76",
+    "currentFileId": "f255f4bc-824a-41f2-b68c-7e62c7299800",
     "resources": {
       "ddbRecepie": {
         "name": "ddbRecepie",
@@ -78,32 +130,13 @@
           }
         }
       },
-      "apigGetRecepiegetRecepieget": {
-        "name": "apigGetRecepiegetRecepieget",
+      "apigAPIHellohelloget": {
+        "name": "apigAPIHellohelloget",
         "type": "API_GATEWAY",
         "config": {
           "apiType": 1,
           "apiMode": 0,
-          "apiName": "Get Recepie",
-          "endpointType": "EDGE",
-          "resourceMode": 0,
-          "resourceName": "getRecepie",
-          "resourcePath": "/getRecepie",
-          "restMethod": "GET",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 0,
-          "stageName": "dev",
-          "mode": 0
-        }
-      },
-      "apigHellohelloget": {
-        "name": "apigHellohelloget",
-        "type": "API_GATEWAY",
-        "config": {
-          "apiType": 1,
-          "apiMode": 0,
-          "apiName": "Hello",
+          "apiName": "API-Hello",
           "endpointType": "REGIONAL",
           "resourceMode": 0,
           "resourceName": "hello",
@@ -115,12 +148,31 @@
           "stageName": "dev",
           "mode": 0
         }
+      },
+      "apigPutRecepieaddRecepiepost": {
+        "name": "apigPutRecepieaddRecepiepost",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "Put Recepie",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "addRecepie",
+          "resourcePath": "/addRecepie",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "dev",
+          "mode": 0
+        }
       }
     },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -154,7 +206,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1620740957931
+    "lastSave": 1620800524996
   },
   "VCS_STATE": {
     "provider": "GitHub",
